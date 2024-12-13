@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    text-align: center;
+    height: 50px;
+    padding: 50px;
+    background-color: rgb(235, 160, 216);
+}
+#column{
+display: flex;
+}
+#column>div{
+padding: 25px;
+}
+#column>div>h2{
+text-align:center;
+}
+@media(max-width: 700px){
+#column{
+display: block;
+}
+}
+footer{
+    text-align: center;
+    height: 50px;
+    padding: 50px;
+    background-color: rgb(235, 160, 216);
+}
+.person{
+    background-color: white;
+}
+.couple{
+    background-color: rgb(155, 194, 240);
+    color: white;
+}
